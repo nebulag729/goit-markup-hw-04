@@ -1,12 +1,201 @@
+.WebTittle {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+ul {
+  list-style: none;
+}
+
+.Contact {
+  text-decoration: none;
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.Contact:hover {
+  color: #2196f3;
+}
+
+.HeaderLink {
+  text-decoration: none;
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.HeaderLink:hover {
+  color: #2196f3;
+}
+/* Body CSS*/
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14 px;
   color: #212121;
   background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
+  width: 1600px;
+  height: 2410px;
+  background-color: #ffffff;
 }
 
-.button:hover {
+button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* CSS de Main*/
+
+.mainbutton {
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.MainTop {
+  font-family: 'Roboto', sans-serif;
+  background: #2f303a;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.MainMid {
+}
+
+.MainMidH3 {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.MainMidP {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.MainMid2 {
+}
+
+.MainMidT {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.MainBot {
+  width: 1600px;
+  background: #f5f4fa;
+}
+
+.MainBotT {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.Name {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.Position {
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.Members {
+  width: 1177px;
+  background: #f5f4fa;
+}
+
+.Frame {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+}
+
+footer {
+  background: #2f303a;
+}
+
+.Webfooter {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.address {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contactfooter {
+  color: hsl(0, 0%, 60%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+/* PORTAFOLIO CSS PART*/
+
+.Sections {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.buttonP {
+  display: inline-block;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.buttonP:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
