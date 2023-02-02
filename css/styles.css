@@ -1,3 +1,4 @@
+/*Index.html */
 .WebTittle {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
@@ -24,6 +25,10 @@ ul {
   color: #2196f3;
 }
 
+.Contact:focus {
+  color: #2196f3;
+}
+
 .HeaderLink {
   text-decoration: none;
   color: #212121;
@@ -36,6 +41,9 @@ ul {
 }
 
 .HeaderLink:hover {
+  color: #2196f3;
+}
+.HeaderLink:focus {
   color: #2196f3;
 }
 /* Body CSS*/
@@ -64,6 +72,18 @@ button:hover {
   border-radius: 4px;
   color: #ffffff;
   border-color: transparent;
+}
+
+.mainbutton:hover {
+  background-color: #2196f3;
+}
+
+.mainbutton:focus {
+  background-color: #2196f3;
+}
+
+.MainTittle {
+  font-size: 44px;
 }
 
 .MainTop {
@@ -198,4 +218,36 @@ footer {
 .buttonP:hover {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.BotonText {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 6px 6px;
+}
+
+.listaPorta {
+  text-decoration: none;
+  color: #212121;
+}
+
+.Alist {
+  text-decoration: none;
+  list-style: none;
+}
+
+.listph3 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.LiPorta {
+  text-decoration: none;
+  list-style: none;
+}
+
+.PortaBody {
+  text-decoration: none;
+  list-style: none;
 }
