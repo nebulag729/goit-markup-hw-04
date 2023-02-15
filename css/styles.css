@@ -21,10 +21,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.Contact:hover {
-  color: #2196f3;
-}
-
+.Contact:hover,
 .Contact:focus {
   color: #2196f3;
 }
@@ -39,6 +36,9 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.active {
+  color: #2196f3;
+}
 
 .HeaderLink:hover {
   color: #2196f3;
@@ -50,7 +50,7 @@ ul {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14 px;
+  font-size: 14px;
   color: #212121;
   background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
@@ -67,23 +67,27 @@ button:hover {
 /* CSS de Main*/
 
 .mainbutton {
-  background-color: #2196f3;
   cursor: pointer;
-  border-radius: 4px;
-  color: #ffffff;
-  border-color: transparent;
-}
-
-.mainbutton:hover {
   background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
+.mainbutton:hover,
 .mainbutton:focus {
   background-color: #2196f3;
 }
 
 .MainTittle {
+  color: white;
   font-size: 44px;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .MainTop {
@@ -114,7 +118,8 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
+  width: 300px;
 }
 
 .MainMid2 {
@@ -163,6 +168,8 @@ button:hover {
 .Members {
   width: 1177px;
   background: #f5f4fa;
+  font-size: 19px;
+  line-height: 1.18;
 }
 
 .Frame {
@@ -200,6 +207,10 @@ footer {
   text-decoration: none;
 }
 
+.contactfooter:focus,
+.contactfooter:hover {
+}
+
 /* PORTAFOLIO CSS PART*/
 
 .Sections {
@@ -209,15 +220,43 @@ footer {
 
 .buttonP {
   display: inline-block;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
+  color: black;
   border-radius: 4px;
   cursor: pointer;
   border-color: transparent;
+  font-size: 14px;
+}
+/*Seccion de botones */
+.todo {
+  height: 38px;
+  width: 73px;
+}
+.sitios-web {
+  height: 38px;
+  width: 128px;
+}
+.aplicaciones {
+  height: 38px;
+  width: 145px;
+}
+.diseno {
+  height: 38px;
+  width: 103px;
+}
+.marketing {
+  height: 38px;
+  width: 130px;
 }
 
+/*------------------------------------------------------------------------*/
+.buttonP-active {
+  background-color: #2196f3;
+  color: #ffffff;
+}
 .buttonP:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background: #2196f3;
 }
 
 .BotonText {
@@ -240,7 +279,7 @@ footer {
 .listph3 {
   text-decoration: none;
   list-style: none;
-  color: #212121
+  color: #212121;
 }
 
 .PortaBody {
@@ -248,7 +287,7 @@ footer {
   list-style: none;
 }
 
-.Psubti { 
+.Psubti {
   list-style: none;
   text-decoration: none;
   color: #757575;
