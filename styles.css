@@ -66,6 +66,10 @@ button:hover {
 
 /* CSS de Main*/
 
+.container {
+  width: 1200px;
+}
+
 .mainbutton {
   background-color: #2196f3;
   cursor: pointer;
@@ -240,7 +244,7 @@ footer {
 .listph3 {
   text-decoration: none;
   list-style: none;
-  color: #212121
+  color: #212121;
 }
 
 .PortaBody {
@@ -248,7 +252,7 @@ footer {
   list-style: none;
 }
 
-.Psubti { 
+.Psubti {
   list-style: none;
   text-decoration: none;
   color: #757575;
