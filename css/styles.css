@@ -1,4 +1,13 @@
 /*Index.html */
+* {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
 .WebTittle {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
@@ -27,7 +36,6 @@ ul {
 }
 
 .HeaderLink {
-  text-decoration: none;
   color: #212121;
   font-family: 'Roboto';
   font-style: normal;
@@ -35,28 +43,27 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .active {
   color: #2196f3;
 }
 
-.HeaderLink:hover {
-  color: #2196f3;
-}
+.HeaderLink:hover,
 .HeaderLink:focus {
   color: #2196f3;
 }
 /* Body CSS*/
 
 body {
+  background-color: #ffffff;
+  color: #212121;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: #212121;
-  background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
-  width: 1600px;
   height: 2410px;
-  background-color: #ffffff;
+  width: 1600px;
 }
 
 button:hover {
@@ -66,13 +73,16 @@ button:hover {
 
 /* CSS de Main*/
 
+.container {
+  width: 1200px;
+}
+
 .mainbutton {
-  cursor: pointer;
   background-color: #2196f3;
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  color: #ffffff;
 }
 
 .mainbutton:hover,
@@ -91,35 +101,33 @@ button:hover {
 }
 
 .MainTop {
-  font-family: 'Roboto', sans-serif;
   background: #2f303a;
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .MainMid {
 }
 
 .MainMidH3 {
-  font-family: 'Roboto', sans-serif;
   color: #212121;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
 
 .MainMidP {
-  font-family: 'Roboto', sans-serif;
   color: #757575;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
-  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
 }
 
 .MainMid2 {
@@ -148,8 +156,8 @@ button:hover {
 }
 
 .Name {
-  font-family: 'Roboto', sans-serif;
   color: #212121;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -166,10 +174,10 @@ button:hover {
 }
 
 .Members {
-  width: 1177px;
   background: #f5f4fa;
   font-size: 19px;
   line-height: 1.18;
+  width: 1177px;
 }
 
 .Frame {
@@ -219,14 +227,14 @@ footer {
 }
 
 .buttonP {
-  display: inline-block;
-  background-color: #f5f4fa;
-  color: black;
   border-radius: 4px;
-  cursor: pointer;
+  background-color: #f5f4fa;
   border-color: transparent;
+  color: black;
+  cursor: pointer;
   font-size: 14px;
 }
+
 /*Seccion de botones */
 .todo {
   height: 38px;
@@ -249,14 +257,14 @@ footer {
   width: 130px;
 }
 
-/*------------------------------------------------------------------------*/
 .buttonP-active {
   background-color: #2196f3;
   color: #ffffff;
 }
+
 .buttonP:hover {
   color: #ffffff;
-  background: #2196f3;
+  background-color: #2196f3;
 }
 
 .BotonText {
@@ -267,8 +275,8 @@ footer {
 }
 
 .listaPorta {
-  text-decoration: none;
   color: #212121;
+  text-decoration: none;
 }
 
 .Alist {
@@ -291,9 +299,4 @@ footer {
   list-style: none;
   text-decoration: none;
   color: #757575;
-}
-
-a {
-  text-decoration: none;
-  list-style: none;
 }
