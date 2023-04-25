@@ -1,5 +1,6 @@
 /*Index.html */
 * {
+  box-sizing: border-box;
   margin: auto;
 }
 
@@ -8,31 +9,35 @@ a {
   list-style: none;
 }
 
-.WebTittle {
+header {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  height: 80px;
+  width: 1600px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.web-title {
+  display: flex;
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-size: 26px;
+  margin-right: 93px;
 }
 
-ul {
-  list-style: none;
-}
-
-.Contact {
-  text-decoration: none;
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.Contact:hover,
-.Contact:focus {
-  color: #2196f3;
+.HeaderMenu {
+  margin-right: 20px;
 }
 
 .HeaderLink {
@@ -56,13 +61,47 @@ ul {
 }
 /* Body CSS*/
 
+ul {
+  list-style: none;
+}
+
+.HeaderList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-info {
+  display: flex;
+}
+
+.Contact {
+  text-decoration: none;
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.Contact:hover,
+.Contact:focus {
+  color: #2196f3;
+}
+
+.flex-header {
+  display: flex;
+}
+
 body {
   background-color: #ffffff;
   color: #212121;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  height: 2410px;
   width: 1600px;
 }
 
@@ -73,45 +112,68 @@ button:hover {
 
 /* CSS de Main*/
 
-.container {
-  width: 1200px;
-}
-
-.mainbutton {
+.main-button {
   background-color: #2196f3;
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  line-height: 30px;
+  margin-top: 30px;
+  width: 261px;
   color: #ffffff;
 }
 
-.mainbutton:hover,
-.mainbutton:focus {
+.main-button:hover,
+.main-button:focus {
   background-color: #2196f3;
 }
 
-.MainTittle {
-  color: white;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-top: 30px;
-}
-
 .MainTop {
+  display: flex;
+  align-items: center;
   background: #2f303a;
   color: #ffffff;
+  justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  width: 1600px;
+  height: 600px;
+}
+
+.main-title {
+  color: white;
+  font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
+  width: 696px;
+  height: 120px;
+}
+
+h1 {
+  font-size: 44px;
+  width: 650px;
+  height: 120px;
 }
 
 .MainMid {
+  margin-left: 215px;
+  width: 1170px;
+}
+
+.details-list {
+  display: flex;
+  margin-top: 95px;
+}
+
+.description-dt {
+  margin-right: 30px;
 }
 
 .MainMidH3 {
@@ -125,12 +187,15 @@ button:hover {
   color: #757575;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   line-height: 24px;
+  margin-top: 10px;
 }
 
 .MainMid2 {
+  margin-left: 215px;
+  width: 1173.16px;
 }
 
 .MainMidT {
@@ -139,12 +204,22 @@ button:hover {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  margin-top: 94px;
   text-align: center;
 }
 
+.img-dedication {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
 .MainBot {
-  width: 1600px;
+  display: flex;
+  align-items: center;
   background: #f5f4fa;
+  width: 1600px;
+  height: 648px;
 }
 
 .MainBotT {
@@ -153,6 +228,28 @@ button:hover {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
+}
+
+.Members {
+  display: flex;
+  align-content: center;
+  background: #f5f4fa;
+  font-size: 19px;
+  flex-wrap: wrap;
+  line-height: 1.18;
+  margin-top: 50px;
+  margin-left: 215px;
+  width: 1177px;
+}
+
+.Frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
 }
 
 .Name {
@@ -173,21 +270,16 @@ button:hover {
   line-height: 19px;
 }
 
-.Members {
-  background: #f5f4fa;
-  font-size: 19px;
-  line-height: 1.18;
-  width: 1177px;
-}
-
-.Frame {
-  width: 270px;
-  height: 368px;
-  background-color: #ffffff;
-}
-
 footer {
   background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+
+.footer-website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .Webfooter {
@@ -206,7 +298,7 @@ footer {
   font-size: 14px;
 }
 
-.contactfooter {
+.contact-footer {
   color: hsl(0, 0%, 60%);
   font-style: normal;
   font-weight: 400;
@@ -215,8 +307,8 @@ footer {
   text-decoration: none;
 }
 
-.contactfooter:focus,
-.contactfooter:hover {
+.contact-footer:focus,
+.contact-footer:hover {
 }
 
 /* PORTAFOLIO CSS PART*/
@@ -236,6 +328,13 @@ footer {
 }
 
 /*Seccion de botones */
+
+.menu-portafolio {
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+}
+
 .todo {
   height: 38px;
   width: 73px;
