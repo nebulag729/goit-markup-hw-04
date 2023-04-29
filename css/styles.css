@@ -10,16 +10,21 @@ a {
 }
 
 header {
-  display: flex;
+  /*display: flex;
   align-items: center;
   align-content: flex-start;
   height: 80px;
-  width: 1600px;
+  width: 1600px;*/
 }
 
 .container {
   width: 1200px;
   margin: 0;
+}
+
+.header-container {
+  display: flex;
+  padding: 0px 15px;
 }
 
 nav {
@@ -28,12 +33,12 @@ nav {
 }
 
 .web-title {
-  display: flex;
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
-  text-decoration: none;
   font-size: 26px;
   margin-right: 93px;
+  text-decoration: none;
+  padding: 25px 0px;
 }
 
 .HeaderMenu {
@@ -48,6 +53,7 @@ nav {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding: 25px 0px;
   text-decoration: none;
 }
 
@@ -83,6 +89,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  margin-right: 50px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
@@ -313,9 +320,14 @@ footer {
 
 /* PORTAFOLIO CSS PART*/
 
-.Sections {
+/*.Sections {
   background: #f5f4fa;
   border-radius: 4px;
+}
+*/
+.portafolio-content {
+  width: 1170px;
+  height: 1360px;
 }
 
 .buttonP {
@@ -324,15 +336,16 @@ footer {
   border-color: transparent;
   color: black;
   cursor: pointer;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
 }
 
 /*Seccion de botones */
 
 .menu-portafolio {
   display: flex;
-  justify-content: center;
-  margin-right: 8px;
 }
 
 .todo {
@@ -373,9 +386,24 @@ footer {
   padding: 6px 6px;
 }
 
-.listaPorta {
+.menu-main {
+}
+
+.lista-porta {
+  display: flex;
+  flex-wrap: wrap;
   color: #212121;
+  margin-top: 50px;
+  margin-bottom: 83px;
   text-decoration: none;
+}
+
+.LiPorta {
+  border: 1px solid #eeeeee;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 370px;
+  height: 404px;
 }
 
 .Alist {
