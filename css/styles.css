@@ -1,7 +1,8 @@
 /*Index.html */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  margin: auto;
 }
 
 a {
@@ -9,18 +10,19 @@ a {
   list-style: none;
 }
 
-header {
-  /*display: flex;
-  align-items: center;
-  align-content: flex-start;
-  height: 80px;
-  width: 1600px;*/
-}
-
 .container {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
+} 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 80px;
+  width: 1600px;
 }
+
 
 .header-container {
   display: flex;
@@ -30,6 +32,11 @@ header {
 nav {
   display: flex;
   align-items: center;
+}
+
+nav .HeaderList {
+  margin: 0;
+  padding: 0;
 }
 
 .web-title {
@@ -74,12 +81,15 @@ ul {
 .HeaderList {
   display: flex;
   list-style: none;
+  gap: 50px 32px;
   margin: 0;
   padding: 0;
 }
 
 .header-info {
   display: flex;
+  align-items: center;
+  margin-left: auto; 
 }
 
 .Contact {
@@ -109,7 +119,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  width: 1600px;
 }
 
 button:hover {
@@ -118,6 +127,30 @@ button:hover {
 }
 
 /* CSS de Main*/
+
+.MainTop {
+  display: flex;
+  align-items: center;
+  background: #2f303a;
+  color: #ffffff;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  height: 600px;
+}
+
+.main-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  margin: auto;
+  width: 696px;
+  height: 120px;
+}
 
 .main-button {
   background-color: #2196f3;
@@ -138,40 +171,8 @@ button:hover {
   background-color: #2196f3;
 }
 
-.MainTop {
-  display: flex;
-  align-items: center;
-  background: #2f303a;
-  color: #ffffff;
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  text-align: center;
-  width: 1600px;
-  height: 600px;
-}
-
-.main-title {
-  color: white;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  width: 696px;
-  height: 120px;
-}
-
-h1 {
-  font-size: 44px;
-  width: 650px;
-  height: 120px;
-}
 
 .MainMid {
-  margin-left: 215px;
-  width: 1170px;
 }
 
 .details-list {
@@ -201,8 +202,6 @@ h1 {
 }
 
 .MainMid2 {
-  margin-left: 215px;
-  width: 1173.16px;
 }
 
 .MainMidT {
@@ -211,7 +210,6 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  margin-top: 94px;
   text-align: center;
 }
 
@@ -225,8 +223,10 @@ h1 {
   display: flex;
   align-items: center;
   background: #f5f4fa;
-  width: 1600px;
   height: 648px;
+}
+
+.flex-mainbot {
 }
 
 .MainBotT {
@@ -245,9 +245,7 @@ h1 {
   font-size: 19px;
   flex-wrap: wrap;
   line-height: 1.18;
-  margin-top: 50px;
-  margin-left: 215px;
-  width: 1177px;
+  margin: 0;
 }
 
 .Frame {
@@ -255,8 +253,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 270px;
-  height: 368px;
   background-color: #ffffff;
+}
+
+.Frame .team-img {
 }
 
 .Name {
@@ -392,6 +392,7 @@ footer {
 .lista-porta {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   color: #212121;
   margin-top: 50px;
   margin-bottom: 83px;
