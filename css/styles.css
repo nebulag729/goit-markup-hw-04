@@ -173,6 +173,8 @@ button:hover {
 
 
 .MainMid {
+  margin-bottom: 94px;
+  margin-top: 95px;
 }
 
 .details-list {
@@ -182,6 +184,12 @@ button:hover {
 
 .description-dt {
   margin-right: 30px;
+  width: 270px;
+}
+
+.description-dt {
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .MainMidH3 {
@@ -216,7 +224,9 @@ button:hover {
 .img-dedication {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
   margin-top: 55px;
+  margin-bottom: 94px;
 }
 
 .MainBot {
@@ -235,12 +245,14 @@ button:hover {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .Members {
   display: flex;
   align-content: center;
+  justify-content: space-between;
   background: #f5f4fa;
   font-size: 19px;
   flex-wrap: wrap;
@@ -253,7 +265,10 @@ button:hover {
   flex-direction: column;
   align-items: center;
   width: 270px;
+  Height: 368px;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .Frame .team-img {
@@ -266,43 +281,59 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .Position {
   color: #757575;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  letter-spacing: 0.48px;
+  margin-top: 10px;
+  text-align: center;
+  Weight: 400;
 }
+
+
+/*footer css */
+
 
 footer {
   background: #2f303a;
-  width: 1600px;
   height: 252px;
 }
 
 .footer-website {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .Webfooter {
-  color: #2196f3;
-  font-family: 'Raleway', sans-serif;
-  text-decoration: none;
+  color: #2196F3;
+  font-family: Raleway;
   font-size: 26px;
-  line-height: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  margin-bottom: 9px;
+  margin-top: 70px;
 }
 
 .address {
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  width: 231px;
 }
 
 .contact-footer {
@@ -311,6 +342,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  margin-bottom: 2px;
   text-decoration: none;
 }
 
