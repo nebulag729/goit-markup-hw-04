@@ -18,9 +18,9 @@ a {
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: solid rgb(212, 212, 212) 1px;
   margin: auto;
   height: 80px;
-  width: 1600px;
 }
 
 
@@ -184,12 +184,8 @@ button:hover {
 
 .description-dt {
   margin-right: 30px;
-  width: 270px;
-}
-
-.description-dt {
-  margin-right: 30px;
   margin-bottom: 30px;
+  width: 270px;
 }
 
 .MainMidH3 {
