@@ -13,30 +13,25 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0px, 16px;
 } 
 
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: solid rgb(212, 212, 212) 1px;
   margin: auto;
-  height: 80px;
+  width: 1600px;
 }
 
 
 .header-container {
   display: flex;
-  padding: 0px 15px;
+  padding: 25px 15px;
 }
 
 nav {
   display: flex;
   align-items: center;
-}
-
-nav .HeaderList {
-  margin: 0;
-  padding: 0;
 }
 
 .web-title {
@@ -45,10 +40,9 @@ nav .HeaderList {
   font-size: 26px;
   margin-right: 93px;
   text-decoration: none;
-  padding: 25px 0px;
 }
 
-.HeaderMenu {
+.HeaderMenu:not(:last-child) {
   margin-right: 20px;
 }
 
@@ -138,7 +132,7 @@ button:hover {
   font-style: normal;
   font-weight: 900;
   text-align: center;
-  height: 600px;
+  padding: 200px 0px;
 }
 
 .main-title {
@@ -173,18 +167,16 @@ button:hover {
 
 
 .MainMid {
-  margin-bottom: 94px;
-  margin-top: 95px;
+  padding-bottom: 47px;
 }
 
 .details-list {
   display: flex;
+  justify-content: space-between;
   margin-top: 95px;
 }
 
 .description-dt {
-  margin-right: 30px;
-  margin-bottom: 30px;
   width: 270px;
 }
 
@@ -206,6 +198,8 @@ button:hover {
 }
 
 .MainMid2 {
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 .MainMidT {
@@ -219,21 +213,18 @@ button:hover {
 
 .img-dedication {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-  margin-top: 55px;
-  margin-bottom: 94px;
+  padding-top: 55px;
 }
 
 .MainBot {
   display: flex;
   align-items: center;
   background: #f5f4fa;
-  height: 648px;
+  padding: 94px;
 }
 
-.flex-mainbot {
-}
+
 
 .MainBotT {
   font-family: 'Roboto', sans-serif;
@@ -257,17 +248,14 @@ button:hover {
 }
 
 .Frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 270px;
-  Height: 368px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.Frame .team-img {
+.frame-body{
+  margin: 30px;
 }
 
 .Name {
@@ -291,7 +279,6 @@ button:hover {
   letter-spacing: 0.48px;
   margin-top: 10px;
   text-align: center;
-  Weight: 400;
 }
 
 
@@ -356,6 +343,7 @@ footer {
 .portafolio-content {
   width: 1170px;
   margin: auto;
+  padding-top: 106px;
 }
 
 .buttonP {
@@ -375,10 +363,8 @@ footer {
 
 .menu-portafolio {
   display: flex;
-  align-content: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 112px;
   margin-bottom: 50px;
 }
 
@@ -422,7 +408,6 @@ footer {
 
 .menu-main {
   display: flex;
-  align-content: center;
   gap: 30px;
 }
 
@@ -437,11 +422,12 @@ footer {
 
 .LiPorta {
   border: 1px solid #eeeeee;
-  margin-right: 10px;
-  margin-top: 20px;
   text-align: left;
   width: 370px;
-  height: 404px;
+}
+
+.liporta-body{
+  margin: 24px 20px;
 }
 
 .Alist {
@@ -453,7 +439,6 @@ footer {
   text-decoration: none;
   list-style: none;
   color: #212121;
-  margin-top: 20px;
 }
 
 .PortaBody {
@@ -464,11 +449,5 @@ footer {
 .Psubti {
   color: #757575;
   list-style: none;
-  margin-top: 0.4px;
-  margin-bottom: 20px;
   text-decoration: none;
-}
-
-.listph3, .Psubti {
-  margin-left: 27px;
 }
