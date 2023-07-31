@@ -90,6 +90,10 @@ ul {
   margin-right: 50px;
 }
 
+.header-icon{
+  margin-right: 10px  
+}
+
 .Contact {
   text-decoration: none;
   color: #757575;
@@ -104,6 +108,16 @@ ul {
 .Contact:hover,
 .Contact:focus {
   color: #2196f3;
+}
+
+.header-contact:hover .header-icon g  {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-contact:hover path  {
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .flex-header {
@@ -173,6 +187,18 @@ button:hover {
   padding-bottom: 47px;
 }
 
+.logo-mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #F5F4FA;
+}
+
 .details-list {
   display: flex;
   justify-content: space-between;
@@ -203,6 +229,7 @@ button:hover {
 .MainMid2 {
   padding-top: 47px;
   padding-bottom: 94px;
+  position: relative;
 }
 
 .MainMidT {
@@ -258,7 +285,9 @@ button:hover {
 }
 
 .frame-body{
-  margin: 30px;
+  margin: 0px 30px;
+  margin-top: 30px;
+  margin-bottom: 16px;
 }
 
 .Name {
@@ -284,6 +313,17 @@ button:hover {
   text-align: center;
 }
 
+.icon-redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 32px;
+  margin-bottom: 30px;
+}
+
+.border-redes{
+  margin: 10px;
+}
 
 /*footer css */
 
