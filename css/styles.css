@@ -150,6 +150,9 @@ button:hover {
   font-weight: 900;
   text-align: center;
   padding: 200px 0px;
+  background-image: url(/images/mainbackground.png);
+  width: 1600px;
+  margin: auto;
 }
 
 .main-title {
@@ -252,6 +255,8 @@ button:hover {
   align-items: center;
   background: #f5f4fa;
   padding: 94px;
+  margin: auto;
+  width: 1600px;
 }
 
 
@@ -363,18 +368,38 @@ button:hover {
 }
 
 .icon-bot-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 106px;
   height: 52.826px;
   flex-shrink: 0;
 }
+
+.bot-logos:hover {
+  border-color: #2196F3;
+}
+
+.bot-logos:hover .icon-bot-2 .psvg{
+  fill: #2196F3;
+}
+
 
 /*footer css */
 
 
 footer {
   background: #2f303a;
-  height: 252px;
+  margin: auto;
+  width: 1600px;
 }
+
+.footer-container{
+  display: flex;
+  justify-content: flex-start;
+  padding: 60px 0;
+}
+
 
 .footer-website {
   display: flex;
@@ -390,8 +415,6 @@ footer {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  margin-bottom: 9px;
-  margin-top: 70px;
 }
 
 .address {
@@ -419,13 +442,49 @@ footer {
 .contact-footer:hover {
 }
 
+.redes-footer{
+  width: 206px;
+  flex-shrink: 0;
+  margin-left: 70px;
+}
+
+.redes-footerh3{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.icon-redes-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.circle-footer {
+  fill: rgba(255, 255, 255, 0.10);
+}
+
+.svg-icon-footer {
+  transform-origin: center; 
+}
+
+
+.shape-footer:hover .circle-footer  {
+  fill: #2196F3; 
+}
+
+.shape:hover .svg-icon-footer .icon-path-footer {
+  fill: white; 
+}
 /* PORTAFOLIO CSS PART*/
 
-/*.Sections {
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-*/
+
 .portafolio-content {
   width: 1170px;
   margin: auto;
@@ -443,6 +502,7 @@ footer {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+
 }
 
 /*Seccion de botones */
@@ -510,6 +570,12 @@ footer {
   border: 1px solid #eeeeee;
   text-align: left;
   width: 370px;
+}
+
+.LiPorta:hover, .LiPorta:focus{
+  border: 1px solid #EEE;
+  background: #FFF;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .liporta-body{
