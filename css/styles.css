@@ -250,6 +250,30 @@ button:hover {
   padding-top: 55px;
 }
 
+.text-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 372px;
+  height: 70px;
+  flex-shrink: 0;
+  background: rgba(47, 48, 58, 0.80);
+  opacity: .8;
+  margin-top: -73px;
+}
+
+.text-span{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .MainBot {
   display: flex;
   align-items: center;
